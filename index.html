@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- Need to start with the DOCTYPE-->
+<html>
+  <head>
+    <!-- All websites have a HEAD and BODY-->
+    <!-- format for META tage is meta name="" content=""-->
+    <meta charset="utf-8" />
+    <!-- there are a few META tags but most often you want to specify different attributes-->
+    <meta name="description" content="Useless Stuff" />
+    <meta name="keywords" content="html,Karin" />
+    <meta name="author" content="Karin" />
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+
+    <title>Karin's Personal Site</title>
+  </head>
+
+
+  <body>
+    <!--
+      <img src="images/karin.png" alt="This is also me" />
+    -->
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <img src="https://media-exp1.licdn.com/dms/image/D4E35AQErGtbYhB83SA/profile-framedphoto-shrink_100_100/0/1653505380552?e=1668718800&v=beta&t=ZMsyQ06pQLcIK21Nf_yc15jNOozG8pEnaJ5QtivGMuI" alt="Profile of Karin">
+        </td>
+         <td>
+          <h1>KARIN</h1>
+          <hr size="10" noshade />
+          <!-- adding a paragraph tag which adds new line and keeps things together-->
+          <p>
+            <!-- Emphasis (em) vs Italicize (i) - basically same but use EM - conveys meaning and just style-->
+            <em>
+              <!-- Strong (strong) vs Bold (b) - basically same but use Strong -->
+              <strong> New </strong>
+              HTML Developer
+            </em>
+          </p>
+          <p>
+            30 years in business and great Developer. Enjoys floating in my pool and
+            TN Volunteer football. GO VOLS!!!
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr size="5" noshade />
+
+    <h3><u>My Education</u></h3>
+    <!--Unordered list vs Ordered list(ol) with number or letters-->
+    <!--
+        Unordered list style=list-style-type:disc Sets the list item marker to a bullet (default)
+                        style=list-style-type:circle	Sets the list item marker to a circle
+                        style=list-style-type:square	Sets the list item marker to a square
+                        style=list-style-type:none	The list items will not be marked
+    -->
+    <!--
+        Ordered list type="1"	The list items will be numbered with numbers (default)
+                    type="A"	The list items will be numbered with uppercase letters
+                    type="a"	The list items will be numbered with lowercase letters
+                    type="I"	The list items will be numbered with uppercase roman numbers
+                    type="i"	The list items will be numbered with lowercase roman numbers
+    -->
+    <ul style="list-style-type: circle">
+      <li> 
+        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287446#overview">The Complete 2022 Web Development Bootcamp</a> 
+      </li>
+      <li>The Python Course</li>
+    </ul>
+
+    <hr size="5" noshade />
+    <h3><u>Work Experience</u></h3>
+    <!--
+        <table> - creates a table of unknown rows and columns 
+                - lots of attributes and mostly not used
+        <tr> - creates a table row
+        <td> - create a table cell or could be looked as as a column
+        <thead> or <th>  - table header or column Titles
+        <tbody> - actual body of the table
+        <tfooter>  - footer if you want one
+
+        -->
+    <table border="2">
+      <th>Dates</th>
+      <th>Work</th>
+      <tr>
+        <td>1905 - 1913</td>
+        <td>Doctor of Math</td>
+      </tr>
+      <tr>
+        <td>1913-1950</td>
+      <td>Stock Trader</td>
+      </tr>
+    </table>
+
+    <hr size="5" noshade />
+    <h3><u>Skills</u></h3>
+
+    <!--
+      This next table has two tables nested to create the illution of many columns
+    -->
+    <table>
+      <tr>
+        <td>
+          <table border="1" cellspacing="5">
+            <tr>
+              <td>Photography</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Making Friends</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <tr>
+                <td>Happiness</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Watching movies</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+        </td>
+        <td>
+          <table cellspacing="5">
+            <tr>
+              <td>Collecting Things</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Swimming</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <tr>
+                <td>iOS Development</td>
+                <td>⭐</td>
+              </tr>
+              <tr>
+                <td>Eating</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+        </td> 
+      </tr>
+    </table>
+
+<!--
+  This example is of a simple table with two columns and four rows
+-->
+    <table cellspacing="10">
+      <tr>
+        <td>MySQL</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Data Analytics</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Web Development</td>
+          <td>⭐</td>
+      <tr>
+          <td>Driving</td>
+          <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      </table>
+    
+      <hr size="5">
+    <h4> <a href="hobbies.html">My Hobbies</a>    <a href="contact.html">How to Contact me</a</h4>
+  </body>
+</html>
